@@ -1,0 +1,115 @@
+2023.05.25 20:20:56 INFO  Started: Metals version 0.11.12 in workspace '/Users/niraj/Desktop/DSBDA GROUP B' for client Visual Studio Code 1.78.2.
+May 25, 2023 8:20:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.16.3 by Redgate
+May 25, 2023 8:20:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+May 25, 2023 8:20:56 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+May 25, 2023 8:20:56 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/Users/niraj/Desktop/DSBDA GROUP B/.metals/metals (H2 2.1)
+May 25, 2023 8:20:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+May 25, 2023 8:20:56 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.015s)
+May 25, 2023 8:20:56 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+May 25, 2023 8:20:57 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+May 25, 2023 8:20:57 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+May 25, 2023 8:20:57 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+May 25, 2023 8:20:57 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+May 25, 2023 8:20:57 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+May 25, 2023 8:20:57 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.108s)
+2023.05.25 20:20:57 INFO  time: initialize in 0.75s
+2023.05.25 20:21:02 WARN  Build server is not auto-connectable.
+2023.05.25 20:21:02 WARN  no build tool detected in workspace '/Users/niraj/Desktop/DSBDA GROUP B'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.05.25 20:21:02 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /Printing.scala
+May 25, 2023 8:21:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+May 25, 2023 8:21:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2023.05.25 20:21:15 INFO  no build target found for /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /Printing.scala. Using presentation compiler with project's scala-library version: 3.2.2
+2023.05.25 20:21:16 INFO  time: code lens generation in 14s
+May 25, 2023 8:21:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+May 25, 2023 8:21:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+May 25, 2023 8:21:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2023.05.25 20:22:18 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /Printing.scala
+2023.05.25 20:23:30 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /NegativePositive.scala
+2023.05.25 20:23:31 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /NegativePositive.scala
+2023.05.25 20:23:57 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /PrintName.scala
+2023.05.25 20:24:22 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /PrintName.scala
+2023.05.25 20:24:34 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /PrintName.scala
+2023.05.25 20:25:11 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /largestOfTwo.scala
+2023.05.25 20:25:17 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 11 /largestOfTwo.scala
+2023.05.25 20:47:08 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 12/mapper.java
+2023.05.25 20:47:10 WARN  Running javac-semanticdb failed for file:///Users/niraj/Desktop/DSBDA%20GROUP%20B/Practical%2012/mapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.05.25 20:47:10 INFO  time: code lens generation in 1.62s
+2023.05.25 20:47:22 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 12/SalesMapper.java
+2023.05.25 20:47:23 WARN  Running javac-semanticdb failed for file:///Users/niraj/Desktop/DSBDA%20GROUP%20B/Practical%2012/SalesMapper.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.05.25 20:47:56 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 12/reduceClasser.java
+2023.05.25 20:47:57 WARN  Running javac-semanticdb failed for file:///Users/niraj/Desktop/DSBDA%20GROUP%20B/Practical%2012/reduceClasser.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.05.25 20:48:11 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 12/SalesCountryReducer.java
+2023.05.25 20:48:12 WARN  Running javac-semanticdb failed for file:///Users/niraj/Desktop/DSBDA%20GROUP%20B/Practical%2012/SalesCountryReducer.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.05.25 20:48:40 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 12/SalesCountryDriver.java
+2023.05.25 20:48:40 WARN  Running javac-semanticdb failed for file:///Users/niraj/Desktop/DSBDA%20GROUP%20B/Practical%2012/SalesCountryDriver.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.05.25 20:49:00 WARN  no build target for: /Users/niraj/Desktop/DSBDA GROUP B/Practical 12/SalesCountryDriver.java
+2023.05.25 20:49:00 WARN  Running javac-semanticdb failed for file:///Users/niraj/Desktop/DSBDA%20GROUP%20B/Practical%2012/SalesCountryDriver.java. Output:
+Exception in thread "main" java.lang.IllegalAccessError: class com.sourcegraph.semanticdb_javac.SemanticdbPlugin (in unnamed module @0x4cb2c100) cannot access class com.sun.tools.javac.api.BasicJavacTask (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.api to unnamed module @0x4cb2c100
+	at com.sourcegraph.semanticdb_javac.SemanticdbPlugin.init(SemanticdbPlugin.java:19)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugin(BasicJavacTask.java:255)
+	at jdk.compiler/com.sun.tools.javac.api.BasicJavacTask.initPlugins(BasicJavacTask.java:229)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:292)
+	at jdk.compiler/com.sun.tools.javac.main.Main.compile(Main.java:176)
+	at jdk.compiler/com.sun.tools.javac.Main.compile(Main.java:64)
+	at jdk.compiler/com.sun.tools.javac.Main.main(Main.java:50)
+2023.05.25 22:10:05 INFO  Shutting down server
+2023.05.25 22:10:05 INFO  shutting down Metals
+2023.05.25 22:10:05 INFO  Exiting server
